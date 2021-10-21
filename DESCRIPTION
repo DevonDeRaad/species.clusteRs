@@ -8,7 +8,7 @@ Authors@R: c(person(given = "Devon",
            	comment = c(ORCID = "0000-0003-3105-985X")),
       	   person(given = "Shahan",
            	family = "Derkarabetian",
-           	role = c("aut", "cre"),
+           	role = c("aut"),
            	email = "sderkarabetian@gmail.com",
            	comment = c(ORCID = "")))
 Description: A series of wrapper functions designed to implement a flexible 
