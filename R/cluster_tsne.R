@@ -21,11 +21,11 @@
 
 #' @return a series of plots showing the clustering of all samples in two-dimensional space
 #' @examples
-#' assess_missing_data_tsne(vcfR = SNPfiltR::vcfR.example,
-#' popmap = SNPfiltR::popmap,
+#' assess_missing_data_tsne(vcfR = species.clusteRs::vcfR.example,
+#' popmap = species.clusteRs::popmap,
 #' thresholds = .8)
 #' @export
-assess_missing_data_tsne <- function(vcfR,
+cluster_tsne <- function(vcfR,
                               popmap=NULL,
                               thresholds=NULL,
                               perplexity=NULL,
